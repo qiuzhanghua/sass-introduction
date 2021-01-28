@@ -1,0 +1,14 @@
+{
+  "name": "sass-introduction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass --watch --recursive --output css scss",
+    "lite-server": "lite-server ."
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "node-sass": "^5.0.0"
+  }
+}
